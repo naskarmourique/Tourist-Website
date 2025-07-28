@@ -1,0 +1,152 @@
+/* Base Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    width: 100%;
+}
+
+/* Header */
+header {
+    background-color: rgb(255, 213, 0);
+    padding: 20px;
+    text-align: center;
+}
+header img {
+    width: 150px;
+    height: 100px;
+}
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+h2, h3 {
+    color: rgb(255, 115, 0);
+}
+
+/* Navigation */
+nav {
+    background-color: rgb(255, 247, 0);
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    color: black;
+}
+nav a:hover {
+    color: #ff6600;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+/* Content Box */
+.content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Gallery - Home Page & Gallery Page */
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    text-align: center;
+}
+.gallery img {
+    height: 200px;
+    transition: transform 0.3s ease;
+    opacity: 0.7;
+}
+.gallery img:hover {
+    transform: scale(1.5);
+    opacity: 1.0;
+}
+
+/* Heritage Items */
+.heritage-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.heritage-item img {
+    width: 150px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+/* Form Styling - Hotel Booking */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    font-weight: bold;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid rgb(255, 115, 0);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+input[type="submit"],
+input[type="reset"] {
+    background-color: rgb(255, 115, 0);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: rgb(255, 213, 0);
+    transition: 0.5s ease;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(255, 213, 0);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+footer h3 {
+    color: black;
+}
