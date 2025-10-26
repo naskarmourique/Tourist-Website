@@ -45,7 +45,7 @@ You need a web browser to view the website.
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-*(I will create a `LICENSE` file with the MIT License for you in the next step)*
+
 
 ## 📧 Contact
 
