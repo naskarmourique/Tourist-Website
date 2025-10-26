@@ -14,15 +14,6 @@ A simple and elegant static website for a travel and tourism company, "Kolkata E
 *   **Gallery:** A visual journey through the vibrant streets and iconic places of Kolkata.
 *   **Responsive Design:** The website is designed to be accessible and visually appealing on all devices.
 
-## 🖼️ Screenshots
-
-*(Here you can add screenshots of your website. You can take a screenshot of the homepage, gallery, and other pages and add them here using the markdown syntax `![alt text](image_url)`)*
-
-**Homepage**
-![Homepage Screenshot](https://via.placeholder.com/800x400.png?text=Homepage+Screenshot)
-
-**Gallery**
-![Gallery Screenshot](https://via.placeholder.com/800x400.png?text=Gallery+Screenshot)
 
 ## 💻 Tech Stack
 
